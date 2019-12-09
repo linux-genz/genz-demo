@@ -1,0 +1,7 @@
+#!/bin/bash
+
+GENZ_GCID=0
+WILDCAT_DBG="+pflm"
+IOMMU_DBG="+pflm"
+sudo modprobe amd_iommu_v2 dyndbg=${IOMMU_DBG}
+sudo modprobe wildcat dyndbg=${WILDCAT_DBG} genz_gcid=${GENZ_GCID}

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+WILDCAT_DBG="+pflm"
+sudo modprobe wildcat-rdma dyndbg=${WILDCAT_DBG}

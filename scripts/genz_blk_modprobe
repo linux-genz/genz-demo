@@ -1,0 +1,4 @@
+#!/bin/bash
+
+GENZ_BLK_DBG="+pflm"
+sudo modprobe genz-blk dyndbg=${GENZ_BLK_DBG}
